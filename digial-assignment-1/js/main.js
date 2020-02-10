@@ -15,11 +15,9 @@ window.onload = function() {
     function preload() {
         // Load an image and call it 'logo'.
         game.load.image( 'logo', 'assets/phaser.png' );
-        game.load.image('ninja', 'assets/sprite-88x38.png');
     }
     
     var bouncy;
-    var ninja;
     
     function create() {
         // Create a sprite at the center of the screen using the 'logo' image.
@@ -27,9 +25,6 @@ window.onload = function() {
         // Anchor the sprite at its center, as opposed to its top-left corner.
         // so it will be truly centered.
         bouncy.anchor.setTo( 0.5, 0.5 );
-        //ninja = game.add.sprite(300,200,'ninja');
-        //var walk = ninja.animations.add('walk');
-        //ninja.animations.play('walk', 30, true);
         
         // Turn on the arcade physics engine for this sprite.
         game.physics.enable( bouncy, Phaser.Physics.ARCADE );
