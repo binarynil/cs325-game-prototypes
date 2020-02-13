@@ -57,7 +57,7 @@ window.onload = function() {
         enemyGroup.physicsBodyType = Phaser.Physics.ARCADE;
 
         game.physics.enable( ninja, Phaser.Physics.ARCADE );
-        
+
         star = game.add.weapon(1000, 'star');
         star.bulletKillType = Phaser.Weapon.KILL_WORLD_BOUNDS;
         star.bulletSpeed = 1000;
@@ -139,6 +139,7 @@ window.onload = function() {
     function playerDead(ninja, newEnemy) {
         ninja.kill();
         canShoot = false;
+        var diedText = game.add.text(game.world.centerX-100, game.world.centerY, "You died!", style);
     }
 
     function enemyDead(star, newEnemy) {
