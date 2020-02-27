@@ -124,7 +124,6 @@ window.onload = function() {
         game.physics.arcade.overlap(ninja, enemyGroup, playerDead, null, this);
         game.physics.arcade.overlap(star.bullets, enemyGroup, enemyDead, null, this);
         
-        
     }
 
     function spawnEnemy(randomNumber) {

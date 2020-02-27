@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Hello! Amaze!</title>
+    <script src="js/phaser.js"></script>
+    <script src="js/main.js"></script>
+
+<style>
+body
+{
+    color: #777;
+    font-family: "Avenir", Verdana, sans-serif;
+}
+#readme
+{
+    margin-top: 10px;
+}
+</style>
+
+</head>
+<body>
+<div id="game"></div>
+<div id="readme">
+<h2>Cat Escape</h2>
+
+<ul>
+<li><strong>Originality:</strong>
+    The game is about being a crazy cat lady that runs from her cats. She has a limited amount of laser beams.
+</li>
+
+<li><strong>Technical Merit:</strong>
+    I tried to randomize the Cat movement.
+</li>
+
+<li><strong>Prototype Postmortem:</strong>
+    I learned that things in JavaScript / Phaser process too quickly. I had to figure out a way to slow down the cat and laser beam movement, which was a bit difficult.
+    The lasers would shoot so fast that the laser sprites wouldn't spawn.
+</li>
+
+<li><strong>Prototype Assets:</strong>
+Did you make your prototype assets from scratch? Did you borrow them? Cite your sources here.
+<ul>
+<li>Cat Lady image: <a href="https://depositphotos.com/188573528/stock-illustration-aged-lady-walking-with-a.html">Old Lady</a></li>
+<li>Cat Sprites: <a href="https://rpgtileset.com/sprite/fluffy-cats-sprite-for-rpg-maker-mv/">Cats</a></li>
+<li>Background: <a href="https://opengameart.org/content/grass-pixel-art">Grass</a></li>
+<li>Laser: <a href="https://www.spriters-resource.com/fullview/21390/">Laser</a></li>
+<li>Portal: <a href="http://pixelartmaker.com/art/e09addf9c16a247">Portal</a>
+</li>
+</ul>
+</li>
+
+<li><strong>Prototype Closest Other Game:</strong>
+This game is similar to 2d shooters where you have to dodge the enemy like Ikaruga and Metal Slug. I'm reusing some code from my Digital Assignment 1, and <a href="https://phaser.io/examples/v2/arcade-physics/shoot-the-pointer">Shoot the Pointer</a>
+</li>
+
+<li><strong>High Concept:</strong>
+The Crazy Cat Lady realized that she has too many cats, has angered them, and must run for her dear life.
+</li>
+
+<li><strong>Theme:</strong>
+Person with lots and lots of cats.</li>
+
+<li><strong>Mandated Variety:</strong>
+The cats spawn at random locations, and their movement is also randomized. The player can either dodge, shoot, or do both in order to escape.
+</li>
+
+<li><strong>Prototype Goal:</strong>
+The prototype is evaluating randomizing enemy movements.
+</li>
+
+<li><strong>Player Experience Goals:</strong>
+    I want them to feel frustrated by not being able to dodge the cats.
+</li>
+
+<li><strong>Gameplay:</strong>
+    The player can use the arrow keys to move Up, Down, Left, Right. The player can also shoot a limited amount of laser beams using the space bar.
+    The player must carefully shoot the cats and traverse through the map to escape through the portal. The cats' movements don't have a set pattern, so the player must react quickly.
+</li>
+
+<li><strong>Strategies:</strong>
+    Since the player has a limited amount of lasers, the players should decide when to use the laser beam and when to dodge the cats.
+</li>
+
+<li><strong>Story/Setting/Premise:</strong>
+There once was an old lady who loved cats. She loved them so much that she adopted dozens of cats. One day, she realized that she has become the Crazy Cat Lady, and that
+she couldn't take care of the cats anymore. So, she decided to neglect and kill her cats. The cats grew angry and started an uprising. Now, the Crazy Cat Lady must escape through a weird portal that leads to another dimension.
+</li>
+
+<li><strong>Target Audience:</strong>
+    People who like or hate cats.
+</li>
+
+<li><strong>Play Time:</strong>
+    A few minutes
+</li>
+
+</ul>
+</div>
+</body>
+</html>
