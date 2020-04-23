@@ -74,7 +74,7 @@ function make_main_game_state(game) {
     function create() {
         xp = 0;
         next = 0;
-        playerLevel = 15;
+        playerLevel = 1;
         maxXP = 250 * playerLevel;
         playerBaseDMG = playerLevel + 10;
         enemyBaseDMG = playerLevel + 8;
