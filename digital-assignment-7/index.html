@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Hello! Amaze!</title>
+    <script src="js/phaser.js"></script>
+    <script src="js/main.js"></script>
+
+<style>
+body
+{
+    color: #777;
+    font-family: "Avenir", Verdana, sans-serif;
+}
+#readme
+{
+    margin-top: 10px;
+}
+</style>
+
+</head>
+<body>
+<div id="game"></div>
+<div id="readme">
+<h2>Evil Death</h2>
+
+<ul>
+<li><strong>Originality:</strong>
+The map design. As the player levels up, the enemy’s damage scales up with the player. 
+</li>
+
+<li><strong>Technical Merit:</strong>
+I use random battle encounters. I also use RNG for attacks and heals. Player idle and walking animations. The player, enemy, and boss hp / damage / healing scales up with the player level.
+</li>
+
+<li><strong>Prototype Postmortem:</strong>
+The hardest part was setting up the tilemaps and designing a map. I've never done that before.
+Also it was difficult figuring out where certain lines of code should go, because if you put code before or after something, the whole thing messes up.
+For some reason, the sound didn't work on Chrome, but it works fine on Firefox.
+</li>
+
+<li><strong>Prototype Assets:</strong>
+Did you make your prototype assets from scratch? Did you borrow them? Cite your sources here.
+<ul>
+
+<li>World Tiles: <a href="https://cluly.itch.io/pico-rpg-forest-tileset">Tiles</a></li>
+<li>Enemy Sprite: <a href="https://szadiart.itch.io/animated-character-pack">Enemy Sprite</a></li>
+<li>Battle Screen Tiles: <a href="https://www.spriters-resource.com/snes/ff6/sheet/54693/">FF6 SNES</a></li>
+<li>Boss 1 Sprite: <a href="https://stensven.itch.io/flame-demons-64-x64">Boss Sprite</a></li>
+<li>Player Sprite: <a href="https://lionheart963.itch.io/4-directional-character">Player Sprite</a></li>
+<li>Boss 2 Sprite: <a href="https://opengameart.org/content/bosses-and-monsters-spritesheets-ars-notoria">Boss 2 Sprite</a></li>
+<li>World Music: <a href="https://perturbator.bandcamp.com/album/terror-404">PERTURBATOR - End Theme</a></li>
+<li>Battle Music: <a href="https://perturbator.bandcamp.com/album/the-uncanny-valley">PERTURBATOR - Diabolus Ex Machina</a></li>
+
+</ul>
+</li>
+
+<li><strong>Prototype Closest Other Game:</strong>
+    Turn-based RPGs like Final Fantasy.
+    <li>CSV Map Collide: <a href="https://phaser.io/examples/v2/tilemaps/csv-map-collide">CSV Map Collide</a></li>
+    <li>Walking Animation: <a href="https://phaser.io/examples/v2/animation/two-frame-test">Two Frame Test</a></li>
+</li>
+
+<li><strong>High Concept:</strong>
+    Defeat enemies to become stronger.
+</li>
+
+<li><strong>Theme:</strong>
+NA
+</li>
+
+<li><strong>Mandated Variety:</strong>
+    The player can fight 5 different enemy types and 2 boss types. Each type does a different amount of damage. 
+</li>
+
+<li><strong>Prototype Goal:</strong>
+    Battle Encounters, Leveling
+</li>
+
+<li><strong>Player Experience Goals:</strong>
+    I want them to feel a sense of progression.
+</li>
+
+<li><strong>Gameplay:</strong>
+    The player can move around the map to find battles. Defeat the enemy to level up. The player can attack or heal during their turn.
+    Use the arrow keys to move around the map. Use the number keys to choose your decision during battle. The player gains Ultra points every time an attack hits.
+    When the player gets max Ultra points, they can use the Ultra, which does the double amount of damage from a regular attack.
+    When the player levels up to level 6, they will have the chance to fight the first boss, and it will be added as a new enemy type.
+    Once the player levels up to level 15, they unlock the last boss battle.
+</li>
+
+<li><strong>Strategies:</strong>
+    The player must decide when it’s a good time to attack, heal, and use their skills wisely.
+</li>
+
+<li><strong>Story/Setting/Premise:</strong>
+    The is world is taken over by evil. You must eradicate the evil by killing your foes.
+</li>
+
+<li><strong>Target Audience:</strong>
+    People who like RPGs / Fantasy games.
+</li>
+
+<li><strong>Play Time:</strong>
+Several minutes.
+</li>
+
+</ul>
+</div>
+</body>
+</html>
