@@ -99,7 +99,6 @@ function make_main_game_state(game) {
         ultracharge = 0;
         music = game.add.audio('theme');
         bmusic = game.add.audio('bmusic');
-        b2music = game.add.audio('bmusic');
         music.loop = true;
         //music.loopFull();
         music.volume = 0.08;
